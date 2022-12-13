@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <title>Title</title>
+
+    <script th:src="@{/js/index.js}"></script>
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse" style="background-color: deepskyblue;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="username" href="/" style="color: white; font-family: fantasy"></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a onclick="logout()" style="color: white; font-family: fantasy">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="container" style="padding-top: 50px">
+        <div class="colo">
+            <h4 class="title">
+                WELCOME, GOY
+            </h4>
+            <div class="bodywrap">
+                My name is Dmitri<br><br>
+                <img src="images/shi.jpg" width="300px" height="300px">
+            </div>
+        </div>
+        <div id="user_info" class="user_info">
+            <div class="container">
+                <div id="spisok" class="row">
+                    <div class="col-6">
+                        <ul id="keys" class="list3b">
+
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul id="values" class="list3b">
+
+                        </ul>
+                    </div>
+                    <div id="buttt"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
