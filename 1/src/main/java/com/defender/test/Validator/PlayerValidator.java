@@ -1,4 +1,4 @@
-package Validator;
+package com.defender.test.Validator;
 
 
 import com.defender.test.forms.RegistrationPlayerModel;

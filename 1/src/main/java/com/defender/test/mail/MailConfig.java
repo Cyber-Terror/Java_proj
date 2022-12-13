@@ -1,4 +1,4 @@
-package mail;
+package com.defender.test.mail;
 
 
 import org.springframework.context.annotation.Bean;

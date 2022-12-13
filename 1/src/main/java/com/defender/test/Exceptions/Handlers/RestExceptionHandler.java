@@ -1,4 +1,4 @@
-package Exceptions.Handlers;
+package com.defender.test.Exceptions.Handlers;
 
 import com.defender.test.Exceptions.UserValidationException;
 import lombok.extern.slf4j.Slf4j;

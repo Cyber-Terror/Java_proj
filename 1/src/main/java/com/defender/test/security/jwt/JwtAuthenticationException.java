@@ -1,4 +1,4 @@
-package security.jwt;
+package com.defender.test.security.jwt;
 
 import org.springframework.security.core.AuthenticationException;
 

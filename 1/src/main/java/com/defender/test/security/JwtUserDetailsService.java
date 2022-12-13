@@ -1,4 +1,4 @@
-package security;
+package com.defender.test.security;
 
 import com.defender.test.model.User;
 import com.defender.test.repositories.IUserRepository;

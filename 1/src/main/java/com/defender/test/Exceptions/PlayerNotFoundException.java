@@ -1,4 +1,4 @@
-package Exceptions;
+package com.defender.test.Exceptions;
 
 public class PlayerNotFoundException extends RuntimeException {
     public PlayerNotFoundException(int id) {

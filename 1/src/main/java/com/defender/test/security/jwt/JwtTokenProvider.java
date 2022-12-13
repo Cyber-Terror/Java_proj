@@ -1,4 +1,4 @@
-package security.jwt;
+package com.defender.test.security.jwt;
 
 import com.defender.test.model.Role;
 import io.jsonwebtoken.*;
